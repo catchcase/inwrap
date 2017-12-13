@@ -1,11 +1,11 @@
-package org.ipwrap.IpWrap
+package org.inwrap
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 
 @SpringBootApplication
-class IpWrapApplication
+class InWrapApplication
 
 fun main(args: Array<String>) {
-    SpringApplication.run(IpWrapApplication::class.java, *args)
+    SpringApplication.run(InWrapApplication::class.java, *args)
 }
